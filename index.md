@@ -2,8 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-# layout: default
-layout: home 
+layout: default
+# layout: home 
 ---
 
 # Олеся на свальбарде... 
@@ -16,10 +16,10 @@ layout: home
 
 </div>
 
-<!-- <p align="center"> -->
-<!--     <img src="{{site.baseurl}}/assets/images/0.png" /> -->
-<!--     <br />   -->
-<!-- </p> -->
+<p align="center">
+    <img src="{{site.baseurl}}/assets/images/0.png" />
+    <br />  
+</p>
 
 [День 0](./_posts/2019-01-13-day0.md)
 <br />
