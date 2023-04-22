@@ -28,6 +28,8 @@ url: "https://olesya-in-svalbard.github.io/" # the base hostname & protocol for 
 twitter_username: jekyllrb
 github_username:  jekyll
 logo_url: ./logo.png 
+github:
+  is_project_page: false
 
 # Build settings
 # theme: minima
@@ -44,8 +46,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - assets/main.scss
+# exclude:
+#   - assets/main.scss
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

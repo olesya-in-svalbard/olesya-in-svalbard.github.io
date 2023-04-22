@@ -6,7 +6,7 @@ layout: default
 # layout: home 
 ---
 
-# Олеся на свальбарде... 
+### Олеся на свальбарде... 
 
 <div style="text-align: justify">
 
@@ -16,16 +16,23 @@ layout: default
 
 </div>
 
-<p align="center">
-    <img src="{{site.baseurl}}/assets/images/0.png" />
-    <br />  
-</p>
+<div class="container">
+  <div class="image-gallery">
+    <div class="column">
+      <div class="image-item">
+        <img src="{{site.baseurl}}/assets/images/0.png" alt="" />
+        <div class="overlay"><span></span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!-- <div class="container"> -->
 {% assign sorted = site.posts | sort: 'date' | reverse  %}
 {% for post in sorted reversed %}
 * [{{post.title}}]({{[post.url | relative_url}}) 
 {% endfor %}
-
+<!-- </div> -->
 
 <!-- [День 0](./_posts/2019-01-13-day0.md) -->
 <!-- <br /> -->
